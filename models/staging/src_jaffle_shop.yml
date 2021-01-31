@@ -26,6 +26,7 @@ sources:
               - unique
               - not_null
   - name: stripe
+    description: Payment data from the payments app
     database: demo_db
     tables:
       - name: payment
